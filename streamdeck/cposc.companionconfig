@@ -1,0 +1,480 @@
+{
+    "version": 2,
+    "type": "page",
+    "config": {
+        "1": {
+            "style": "pageup"
+        },
+        "2": {
+            "style": "png",
+            "text": "launch projector view",
+            "size": "14",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "3": {
+            "style": "png",
+            "text": "launch mobile view",
+            "size": "14",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {
+            "style": "pagenum"
+        },
+        "10": {
+            "style": "png",
+            "text": "start round",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "11": {
+            "style": "png",
+            "text": "end round",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "12": {
+            "style": "png",
+            "text": "reset round",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "13": {
+            "style": "png",
+            "text": "pause round",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "14": {
+            "style": "png",
+            "text": "unpause round",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "15": {
+            "style": "png",
+            "text": "next round",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "16": {},
+        "17": {
+            "style": "pagedown"
+        },
+        "18": {
+            "style": "png",
+            "text": "start question",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "19": {
+            "style": "png",
+            "text": "next question",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "20": {
+            "style": "png",
+            "text": "show answer results",
+            "size": "14",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "21": {
+            "style": "png",
+            "text": "show answer",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "22": {
+            "style": "png",
+            "text": "show notes",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "23": {
+            "style": "png",
+            "text": "show rankings",
+            "size": "18",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "24": {
+            "style": "png",
+            "text": "show multigame rankings",
+            "size": "14",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "25": {},
+        "26": {
+            "style": "png",
+            "text": "show team rankings",
+            "size": "14",
+            "alignment": "center:center",
+            "pngalignment": "center:center",
+            "color": 16777215,
+            "bgcolor": 0,
+            "latch": false,
+            "relative_delay": false
+        },
+        "27": {},
+        "28": {},
+        "29": {},
+        "30": {},
+        "31": {},
+        "32": {}
+    },
+    "instances": {
+        "lNUmnjmsF": {
+            "instance_type": "generic-osc",
+            "product": "OSC",
+            "label": "crowdpurr-osc",
+            "_configIdx": 0,
+            "host": "127.0.0.1",
+            "port": "57121",
+            "enabled": true
+        }
+    },
+    "actions": {
+        "1": [],
+        "2": [
+            {
+                "id": "4uLK3rKCQ",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/launchProjectorView"
+                }
+            }
+        ],
+        "3": [
+            {
+                "id": "zlMsEfXwR",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/launchMobileView"
+                }
+            }
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [
+            {
+                "id": "B7ALKxzAQ",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/startExperience"
+                }
+            }
+        ],
+        "11": [
+            {
+                "id": "K5oDBsKHC",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/finishExperience"
+                }
+            }
+        ],
+        "12": [
+            {
+                "id": "ojtHm4QkL",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/restartExperience"
+                }
+            }
+        ],
+        "13": [
+            {
+                "id": "LStm6Dv6U",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/pauseExperience"
+                }
+            }
+        ],
+        "14": [
+            {
+                "id": "YCPcs6chu",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/unPauseExperience"
+                }
+            }
+        ],
+        "15": [
+            {
+                "id": "XFTJpiQvB",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/triggerNextRound"
+                }
+            }
+        ],
+        "16": [],
+        "17": [],
+        "18": [
+            {
+                "id": "8hFDRvGoM",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/startQuestion"
+                }
+            }
+        ],
+        "19": [
+            {
+                "id": "PLm9ndIzk",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/nextQuestion"
+                }
+            }
+        ],
+        "20": [
+            {
+                "id": "R5Pq4_EOM",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/showAnswerResults"
+                }
+            }
+        ],
+        "21": [
+            {
+                "id": "m7BJtLdhM",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/showCorrectAnswer"
+                }
+            }
+        ],
+        "22": [
+            {
+                "id": "wSyS95Lur",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/showQuestionNote"
+                }
+            }
+        ],
+        "23": [
+            {
+                "id": "AY4MGeo09",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/showRankings"
+                }
+            }
+        ],
+        "24": [
+            {
+                "id": "zHUEdvUMd",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/showMultiGameRankings"
+                }
+            }
+        ],
+        "25": [],
+        "26": [
+            {
+                "id": "CArMIAFqK",
+                "label": "lNUmnjmsF:send_blank",
+                "instance": "lNUmnjmsF",
+                "action": "send_blank",
+                "options": {
+                    "path": "/cposc/showTeamRankings"
+                }
+            }
+        ],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": [],
+        "31": [],
+        "32": []
+    },
+    "release_actions": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [],
+        "16": [],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": [],
+        "31": [],
+        "32": []
+    },
+    "page": {
+        "name": "CPOSC"
+    },
+    "feedbacks": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": [],
+        "10": [],
+        "11": [],
+        "12": [],
+        "13": [],
+        "14": [],
+        "15": [],
+        "16": [],
+        "17": [],
+        "18": [],
+        "19": [],
+        "20": [],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "29": [],
+        "30": [],
+        "31": [],
+        "32": []
+    }
+}
