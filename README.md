@@ -39,7 +39,7 @@ Action | OSC Path
 --- | ---
 Start Experience | /cposc/startExperience
 Finish Experience | /cposc/finishExperience
-Reset Experience | /crowduprr/restartExperience
+Reset Experience | /cposc/restartExperience
 Pause Experience | /cposc/pauseExperience
 Unpause Experience | /cposc/unPauseExperience
 Trigger Next Round | /cposc/triggerNextRound
