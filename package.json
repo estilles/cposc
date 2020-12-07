@@ -1,7 +1,7 @@
 {
   "name": "cposc",
   "version": "0.9.0",
-  "description": "Crowdpurr OSC Gateway",
+  "description": "Electron/OSC wrapper to control Crowdpurr experiences",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -29,10 +29,10 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "CrowdpurrOSC",
-            "setupExe": "CrowdpurrOSC-setup.exe",
-            "title": "Crowdpurr OSC",
-            "iconUrl": "file:///D:/Projects/crowdpurr-osc/app.ico",
+            "name": "CpOSC",
+            "setupExe": "CpOSC-setup.exe",
+            "title": "CpOSC",
+            "iconUrl": "file:///D:/Projects/cposc/app.ico",
             "setupIcon": "./app.ico"
           }
         },
