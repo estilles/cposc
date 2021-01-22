@@ -1,6 +1,5 @@
 const { ipcRenderer } = require('electron');
 const experiencePath = /\/experienceSetup\/.*/
-console.log('renderer: starting')
 
 const confirm = (btnId, reconfirm) => {
     setTimeout(() => {
